@@ -20,7 +20,7 @@ class Kernel extends ConsoleKernel
         $schedule->call(function () {
             $model = app(Movie::class);
             (new PullMovieJob($model))->pullMovies();
-        })->daily();
+        })->everyMinute();
     }
 
     /**
