@@ -45,7 +45,7 @@ System developed during the backend programming project for Postmetria company. 
     php artisan serve
 
 -------------------------------------------------
-# CONSUME
+# Consume
 
 ## Consume data from public API and popular database (Choose one of the options)
 
@@ -62,7 +62,10 @@ http://localhost:8000/pullmovies
 ```bash
 curl http://localhost:8000/pullmovies
 ```
-# REST API
+
+-------------------------------------------------
+
+# Rest API
 
 ## Get list of Movies
 
