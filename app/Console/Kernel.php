@@ -17,7 +17,10 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-       
+        $schedule->call(function () {
+            $model = app(Movie::class);
+            (new PullMovieJob($model))->pullMovies();
+        })->daily();
     }
 
     /**
