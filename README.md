@@ -45,67 +45,67 @@ System developed during the backend programming project for Postmetria company. 
     php artisan serve
 
 -------------------------------------------------
-# Consume
+## Consume
 
-## Consume data from public API and popular database (Choose one of the options)
+### Consume data from public API and popular database (Choose one of the options)
 
-### Run Schedule
+#### Run Schedule
 ```bash
 php artisan schedule:run
 ```
-### Request URL (GET)
+#### Request URL (GET)
 ```bash
 http://localhost:8000/pullmovies
 ```
 
-### Request (CURL)
+#### Request (CURL)
 ```bash
 curl http://localhost:8000/pullmovies
 ```
 
 -------------------------------------------------
 
-# Rest API
+## Rest API
 
-## Get list of Movies
+### Get list of Movies
 
-### Request
+#### Request
 
 `GET /api/movies/`
 
 ```bash
 http://localhost:8000/api/movies
 ```
-## Create a new Movie
+### Create a new Movie
 
-### Request
+#### Request
 
 `POST /api/movies/`
 
 ```bash
 http://localhost:8000/api/movies
 ```
-## Get a specific Movie
+### Get a specific Movie
 
-### Request
+#### Request
 
 `GET /api/movie/:id`
 
 ```bash
 http://localhost:8000/api/movies/1
 ```
-## Update a Movie
+### Update a Movie
 
-### Request
+#### Request
 
 `PUT /api/movie/:id`
 
 ```bash
 http://localhost:8000/api/movies/1
 ```
-## Delete a Movie
+### Delete a Movie
 
-### Request
+#### Request
 
 `DELETE /api/movie/:id`
 
