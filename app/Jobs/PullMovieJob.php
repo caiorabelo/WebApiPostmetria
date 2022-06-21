@@ -33,6 +33,6 @@ class PullMovieJob
                 ]);
             }
         }
-        echo 'Created Success!';
+        return 'Created Success!';
     }
 }

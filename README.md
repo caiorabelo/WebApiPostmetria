@@ -89,7 +89,7 @@ http://localhost:8000/api/movies
 
 #### Request
 
-`GET /api/movie/:id`
+`GET /api/movies/:id`
 
 ```bash
 http://localhost:8000/api/movies/1
@@ -98,7 +98,7 @@ http://localhost:8000/api/movies/1
 
 #### Request
 
-`PUT /api/movie/:id`
+`PUT /api/movies/:id`
 
 ```bash
 http://localhost:8000/api/movies/1
@@ -107,7 +107,7 @@ http://localhost:8000/api/movies/1
 
 #### Request
 
-`DELETE /api/movie/:id`
+`DELETE /api/movies/:id`
 
 ```bash
 http://localhost:8000/api/movies/1
